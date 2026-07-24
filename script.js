@@ -6,9 +6,9 @@ $('#myForm').on('submit', function(event) {
     event.preventDefault();
 
     var formData = new FormData(this);
-    formData.append('service_id', 'YOUR_SERVICE_ID');
-    formData.append('template_id', 'YOUR_TEMPLATE_ID');
-    formData.append('user_id', 'YOUR_PUBLIC_KEY');
+    formData.append('service_id', 'service_pb8sx0t');
+    formData.append('template_id', 'template_pjtgfvv');
+    formData.append('user_id', 'qTfrRcmy6cPFwUVow');
 
     $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
         type: 'POST',
